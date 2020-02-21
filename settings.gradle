@@ -1,2 +1,2 @@
-include ':app', ':common'
+include ':app', ':common', ':commonwebview', ':mainview', ':squareview', ':treeview'
 rootProject.name='WanAlpha'

@@ -16,9 +16,10 @@ object HttpManager {
     private lateinit var mRetrofit: Retrofit
 
     fun init() {
+
         mRetrofit =
             Retrofit.Builder()
-                .baseUrl("https://raw.githubusercontent.com/")
+                .baseUrl("https://www.wanandroid.com/")
                 .client(provideOkHttpClient())
                 .addCallAdapterFactory(CoroutineCallAdapterFactory())
                 .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
