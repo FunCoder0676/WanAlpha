@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.funny.treeview" />
+    package="com.funny.treeview" >
+
+    <application>
+        <activity android:name=".TreeActivity"></activity>
+    </application>
+
+
+</manifest>

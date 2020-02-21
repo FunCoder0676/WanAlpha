@@ -1,2 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.funny.squareview" />
+    package="com.funny.squareview" >
+
+    <application>
+        <activity android:name=".SquareActivity"></activity>
+    </application>
+
+</manifest>

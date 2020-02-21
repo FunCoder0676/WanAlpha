@@ -1,2 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.funny.mainview" />
+    package="com.funny.mainview">
+
+    <application>
+        <activity android:name=".MainViewActivity"></activity>
+    </application>
+
+</manifest>
