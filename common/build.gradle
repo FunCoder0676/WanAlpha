@@ -30,6 +30,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api "androidx.constraintlayout:constraintlayout:$constraintVersion"
+    api "android.arch.lifecycle:extensions:2.0.0"
+
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     api "androidx.appcompat:appcompat:$androidXVersion"
     api "androidx.core:core-ktx:$androidXVersion"
